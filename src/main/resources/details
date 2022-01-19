@@ -1,0 +1,28 @@
+
+Iteration 1 = Tight coupled we have to comment and call the instance of the class it gives compile tym error
+create project using spring intitializer
+create class mario, supercontra, pacman
+create runner class to call gaming classes
+create constructor and in param just give the var name
+create variable of gaming class and make it private
+create instance of classes
+create instance of runner class
+
+Iteration 2 = Loose coupling using Interface
+create automated interface GamingConsole
+implement interface by every class
+create variable of Interface and pass it to param
+just comment and call the required instance of the class
+Has all the classes implementing Interface so all has same functionality so we can call anyone of them simply run the instance of required class
+
+Iteration 3 = Loose coupling using Spring
+@Component annotation used on gaming classes and GameRunner class
+@Autowired to merged and create a instance of GameRunner class to call gaming classes
+just change the @ Component from one class to another
+It will create the instance of that class automatically
+add a local variable for SpringApplication.run statement in ApplicationContext
+create GameRunner class object and call the ApplicationContext object through which we can getBeans and pass the param of the Application class
+i.e GameRunner.class
+and comment all the object that is created for gaming class
+
+
